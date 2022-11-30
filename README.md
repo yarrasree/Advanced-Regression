@@ -2,25 +2,24 @@
 Australia Housing Price Prediction using Advanced Regression (Lasso and Ridge techniques)
 
 <b>Business Goal</b>:
-You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
+ Build the model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 Steps we will follow in this assignment as follow:
 1. Reading, understanding and visualising the data
-   a) importing python libraries
-   b) load the data
-   c) checking the data type of each features
-   d) checking null and percentag of null values in each features
-   e) visualize the data for better understanding
-   
+    - importing python libraries
+    - load the data
+    - checking the data type of each features
+    - checking null and percentag of null values in each features
+    - visualize the data for better understanding
 2. Preparing the data for modelling(train-test split etc)
-   a) removing the outliers
-   b) impute missing values with mean etc
-   c) reverifying the correlation to target saleprice variable
-   d) drop feature which are not useful for prediction of saleprice
-   e) split data as train and test 
+    - remove the outliers
+    - impute missing values with mean etc
+    - verifying the correlation to target saleprice variable
+    - drop feature which are not useful for prediction of saleprice
+    - split data as train and test 
 3. Model building and evaluation
-   building model with Linear regression with help of RFE
-   Lasso and Ridge Regression
-       Ridge Regression
-       Lasso Regression
+    - building model with Linear regression with help of RFE
+    - Lasso and Ridge Regression
+        - Ridge Regression
+        - Lasso Regression
 4. Observation
 5. Reference
